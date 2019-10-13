@@ -8,8 +8,8 @@ end
 
 HEADER_REGEX = /^#import\s+["<](.*)[">]/
 
-BUILD_DIR = File.expand_path("~/fbsource/fbobjc/")
-BUILD_CMD = 'buck build wilde'
+BUILD_DIR = File.expand_path("Path to xcproject")
+BUILD_CMD = 'xcodebuild...'
 
 Dir.chdir(ARGV.shift.to_s)
 
